@@ -1,5 +1,5 @@
 var pg = require('pg');
-var conString = "postgres://postgres:123456@localhost/first_test";
+var conString = "postgres://postgres:密码@localhost/数据库名";
 var client = new pg.Client(conString);
 
 var PG = function() {
